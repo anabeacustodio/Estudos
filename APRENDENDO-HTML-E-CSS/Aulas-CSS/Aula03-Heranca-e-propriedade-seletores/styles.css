@@ -1,0 +1,43 @@
+/* exemplos seletor de elementos */
+h3{
+    color: darkgreen;
+}
+
+section{
+    background-color: aquamarine;
+}
+
+/* seletor de classe, vc nao tem definida ainda no html, precisa crir para estilizar */
+.textoPink{
+    color: pink;
+}
+
+.textoBold{
+    font-weight: bold;
+}
+
+/* seletor de ID, precisa citar no html e depois costumiza no css */
+#textoRed{
+    color: red;
+}
+
+/* ### Propriedades HERDÁVEIS por padrão
+
+- 'color'
+- 'font-family'
+- 'font-size'
+- 'font-style'
+- 'font-weight'
+- 'line-height'
+- 'text-align'
+- 'visibility' */
+
+/* ### Propriedades NÃO HERDÁVEIS por padrão
+
+- 'background'
+- 'border'
+- 'margin'
+- 'padding'
+- 'height'
+- 'width'
+- 'display' */

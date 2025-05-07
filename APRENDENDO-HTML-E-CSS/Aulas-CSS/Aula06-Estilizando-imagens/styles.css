@@ -1,0 +1,16 @@
+img{
+    border-radius: 50%;
+    border: 10px solid red;
+    height: 500px;
+    filter: grayscale(100%);
+}
+
+#bia{
+    background-image: url('assets/photos/be.jpeg');
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-position: 0 30%;
+    /* background-position: horizontal vertical */
+    border-radius: 50%;
+}
