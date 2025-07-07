@@ -1,4 +1,4 @@
-// let const
+// com o desuso do VAR, usa-se LET para valores variaveis; e CONST para valores invariaveis
 
 const primeiroValor = 10;
 const segundoValor = 20;
