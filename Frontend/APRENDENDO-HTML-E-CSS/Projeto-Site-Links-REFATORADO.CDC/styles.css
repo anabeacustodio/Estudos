@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(135deg, #7a7e6b, #bcbcba);
+    height: 100vh;
+}
+
+#fotoBe{
+    background-image: url(assets/photos/be.jpeg);
+    height: 255px;
+    width: 255px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+h1{
+    color: #ffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 33px 0px 27px 0px;
+    text-align: center;
+}
+
+.buttonSocial{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    width: 255px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffff;
+    font-weight: 500;
+    margin-bottom: 27px;
+    cursor: pointer;
+    padding-left: 35px;
+
+    img{
+        height: 24px;
+    }
+
+    p{
+        font-size: 1.125rem;
+        padding-left: 15px;
+    }
+}
+
+#contentParent{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    height: 400px;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+}
+
+.item{
+    background-color: tomato;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+
+/* align-self: mesmas propriedades do align-items, modificando propriedades filho conforme default da propriedade pai  */
+.i2{
+    align-self: stretch;
+}
+
+.i3{
+    align-self: flex-end;
+}

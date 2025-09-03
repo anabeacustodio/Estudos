@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    border: 2px solid black;
+    /* flex-direction: column; coluna */
+    /* flex-direction: row;  padrão em linha */
+    /* se add a palavra 'reverse' depois ela fica ao contrário */
+    flex-direction: row-reverse;
+}
+
+.item{
+    background-color: tomato;
+    margin: 10px;
+}

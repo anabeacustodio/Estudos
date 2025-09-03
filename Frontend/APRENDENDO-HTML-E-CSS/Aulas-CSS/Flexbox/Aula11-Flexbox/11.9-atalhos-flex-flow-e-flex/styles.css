@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    height: 400px;
+    border: 2px solid black;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap; /* ATALHO junção flex-direction + flex-wrap */
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center;  */
+}
+
+.item{
+    background-color: tomato;
+    margin: 10px;
+    padding: 10px;
+}
+
+.i2{
+   /* flex-grow: 1; */
+   /* flex-shrink: 0; */
+   /* flex-basis: 500px; */
+   flex: 1 0 500px;
+}
+
+.i3{
+  flex: 2;
+}

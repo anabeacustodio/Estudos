@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    height: 400px;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+}
+
+.item{
+    background-color: tomato;
+    margin: 10px;
+    padding: 10px;
+}
+
+.i2{
+    /* align-self: stretch; */
+    /* order: 1; */
+}
+
+.i3{
+    /* align-self: flex-end; */
+    /* order: -1; */
+    /* flex-grow: 1; -> ocupa espaço "restante" do container para preencher por completo */
+    flex-basis: 200px;
+    flex-shrink: 0;
+    /* flex-basis em conjunto com o flex-shrink no 0 permite que o tamanho do item não seja alderado conforme tamanho da div */
+}
