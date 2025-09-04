@@ -29,14 +29,14 @@
 
 # O range(a, 6) gera números de 1 a 5, o último numero range não é incluído
 
-# Percorrendo uma lista de compras
+# EX.2: Percorrendo uma lista de compras
 
 # compras = ['Arroz', 'Feijão', 'Leite', 'Ovos']
 
 # for item in compras:
 #     print(f'Comprar: {item}')
 
-# EX.2: Percorrendo as letras de uma palava
+# EX.3: Percorrendo as letras de uma palava
 
 # palavra = 'Python'
 
