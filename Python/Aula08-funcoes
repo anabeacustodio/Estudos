@@ -1,0 +1,40 @@
+# Funções
+
+# são blocos de código reutilizáveis que realizam uma tarefa específica. Em vez de escrever o mesmo código várias vezes, criamos uma função e apenas a chamamos sempre que necessário.
+
+# Exemplo "real"
+# Imagine que você tem que calcular o imposto de vários produtos em uma loja. Em vez de repetir a mesma conta várias vezes, você pode criar uma função chamada calcular_imposto() e usá-la sempre que precisar.
+
+# ***Definindo uma função 
+# def = palavra-chave para iniciar a definição de uma função
+# nome_da_funcao = nome que você escolhe para a função (deve ser descritivo)
+# parametros = valores que a função pode receber (opcional)
+# : = indica o início do bloco de código da função
+# corpo_da_funcao = o código que a função executa (deve estar indentado)
+# return = palavra-chave usada para retornar um valor da função (opcional)
+
+# ***Exemplo simples de função
+
+# def saudacao(nome):
+#     print(f"Olá, {nome}! Seja bem-vindo(a)!")
+
+# saudacao("Ana") # chamada da função
+
+# ***Retorno de valores
+
+# def somar(a, b):
+#     return a + b
+
+# # Chamando a função e armazenando o resultado
+# resultado = somar(3, 5)
+# print(f"O resultado da soma é: {resultado}")
+
+# ###Funções com vários parâmetros
+
+def calcular_media(n1, n2, n3):
+    media = (n1 + n2 + n3) / 3
+    return media
+
+# Chamando a função
+resultado = calcular_media(7, 8, 9)
+print(f"A média é: {resultado:.2f}")
