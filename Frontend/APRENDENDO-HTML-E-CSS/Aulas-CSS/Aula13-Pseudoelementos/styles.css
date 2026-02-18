@@ -21,11 +21,32 @@ h2{
     content: "";
     height: 3px;
     width: 150px;
+    background-color: red;
     position: absolute;
     top: -10px;
     left: -20px;
-    
-    
-    background-color: #f00;
-    z-index: -1;
+}
+
+.item1::after{
+    content: "";
+    height: 3px;
+    width: 150px;
+    background-color: blue;
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+}
+
+.item2::first-line{
+    font-weight: bold;
+}
+
+.item3::first-letter{
+    font-size: 2rem;
+    color: red;
+}
+
+.item4::selection{
+    background-color: yellow;
+    color: black;
 }
