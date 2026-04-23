@@ -1,0 +1,88 @@
+:root{
+    --primary-color: cadetblue;
+    --secondary-color: #484242;
+    --border-radius-base: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    padding: 2rem;
+}
+
+h2{
+    margin-top: 3rem;
+}
+
+.buttons{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+
+    button{
+        background-color: var(--primary-color);
+        padding: 1rem;
+        border-radius: var(--border-radius-base);
+        border: none;
+        color: #ffff;
+        transition: 1s;
+    }
+
+    button:hover{
+        background-color: var(--secondary-color);
+    }
+
+    button:focus{
+        outline: 2px solid #000;
+    }
+}
+
+input{
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+input:focus{
+    outline: 2px solid #000;
+}
+
+.texts{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+
+    p:first-child{
+        font-weight: bold;
+        color: var(--primary-color);
+    }
+
+    p:last-child{
+        font-weight: bold;
+        color: var(--secondary-color);
+    }
+}
+
+.images{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        height: 100px;
+    }
+
+    img:nth-child(odd){
+        border-radius: var(--border-radius-base);
+    }
+
+    img:nth-child(even){
+        filter: grayscale(100%);
+    }
+}
